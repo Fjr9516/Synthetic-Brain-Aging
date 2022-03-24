@@ -5,9 +5,11 @@ In this repo, we publish two datasets: i) A true dataset including 2044 images f
 If you use either of these datasets, please cite the following and refer to the corresponding Data Use Agreement.
 - [1] TBA
 
-- [2] OASIS-3: Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer Disease
-
+- [2] OASIS-3: Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer Disease.
 Pamela J LaMontagne, Tammie L.S. Benzinger, John C. Morris, Sarah Keefe, Russ Hornbeck, Chengjie Xiong, Elizabeth Grant, Jason Hassenstab, Krista Moulder, Andrei Vlassenko, Marcus E. Raichle, Carlos Cruchaga, Daniel Marcus, 2019. medRxiv. doi: 10.1101/2019.12.13.19014902
+
+- [3] The Alzheimer's disease neuroimaging initiative (ADNI): MRI methods.
+Jack Jr C R, Bernstein M A, Fox N C, et al. Journal of Magnetic Resonance Imaging: An Official Journal of the International Society for Magnetic Resonance in Medicine, 2008, 27(4): 685-691.
 
 ## Download
 [link1(true_data)]TBA
@@ -24,3 +26,26 @@ seg.nii.gz   256 x 256 x 256   corresponding segmentation in templete space
 We also provide a metadata file including the age, gender, and healthy/not info for each T1-w scan. 
 
 ## Synthetic collection of three data sets
+
+This collection includes the synthetic aging brain T1 MRI scans derived from three data sets: two publicly available data sets i) OASIS-3, ii) [ADNI](https://adni.loni.usc.edu/about/), and a new data set GENIC from our collaborator [Daniel Ferreira Padilla](https://medarbetare.ki.se/people/daniel-ferreira-padilla). Note that the goal of this project is to augment the **HEALTHY** longitudinal brain MRI data as much as possible at different ages. 
+
+The details of three synthetic data sets are shown as follows:
+```
+DATA SET      NUMBER OF SYNTHETIC SCANS      NUMBER OF SUBJECTS      
+OASIS-3       3948                           347
+ADNI          2500                           353
+GENIC         1100                           96
+```
+
+Each directory contains a series of synthetic T1-w scans and corresponding segmentation for each subject. All segmentations are collected by using FreeSurfer ([aparc+aseg.mgz](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllDevTable)). Details for each directory are shown as follows:
+```
+FILENAME      SHAPE             SPACE
+imgX.nii.gz   160 x 160 x 192   synthetic scan in templete space
+segX.nii.gz   160 x 160 x 192   corresponding segmentation in templete space
+```
+In addition, we also provide the metadata file including `linear ages` and `regressed ages` for each synthetic scan for each data set, respectively. Please refer to paper [1] for more details of the age assignment.
+
+## Data Use Agreement
+- [OASIS-3](https://www.oasis-brains.org/#access)
+- [ADNI](https://adni.loni.usc.edu/data-samples/access-data/#access_data)
+- [GENIC]TODO
