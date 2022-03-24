@@ -4,7 +4,9 @@ In this repo, we publish two datasets: i) A true dataset including 2044 images f
 
 If you use either of these datasets, please cite the following and refer to the corresponding Data Use Agreement.
 - [1] TBA
+
 - [2] OASIS-3: Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer Disease
+
 Pamela J LaMontagne, Tammie L.S. Benzinger, John C. Morris, Sarah Keefe, Russ Hornbeck, Chengjie Xiong, Elizabeth Grant, Jason Hassenstab, Krista Moulder, Andrei Vlassenko, Marcus E. Raichle, Carlos Cruchaga, Daniel Marcus, 2019. medRxiv. doi: 10.1101/2019.12.13.19014902
 
 ## Download
@@ -15,10 +17,10 @@ Pamela J LaMontagne, Tammie L.S. Benzinger, John C. Morris, Sarah Keefe, Russ Ho
 ## True data collection from [OASIS-3](https://www.oasis-brains.org/#access)
 Each directory contains one processed T1 weighted scan (`img.nii,gz`) and the corresponding label segmentation (`seg.nii.gz`). We collected the skull stripped and bias-corrected 'norm' images with FreeSufer, and then used the talairach.xfm to affine align all T1-w scans. In order to fit the most machine learning algorithm, we further rescale the intensity of each scan between [0,1]. Details for each directory are shown as follows:
 ```
-FILENAME SHAPE SPACE
-img.nii.gz 256x256x256 rescaled norm scan in templete space
-seg.nii.gz 256x256x256 corresponding segmentation in templete space
+FILENAME     SHAPE             SPACE
+img.nii.gz   256 x 256 x 256   rescaled norm scan in templete space
+seg.nii.gz   256 x 256 x 256   corresponding segmentation in templete space
 ```
-We also provide a metadata file including the age, gender, and healthy/not info. 
+We also provide a metadata file including the age, gender, and healthy/not info for each T1-w scan. 
 
 ## Synthetic collection of three data sets
