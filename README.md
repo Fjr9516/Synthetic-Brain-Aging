@@ -9,7 +9,10 @@ If you use either of these datasets, please cite the following and refer to the 
 Pamela J LaMontagne, Tammie L.S. Benzinger, John C. Morris, Sarah Keefe, Russ Hornbeck, Chengjie Xiong, Elizabeth Grant, Jason Hassenstab, Krista Moulder, Andrei Vlassenko, Marcus E. Raichle, Carlos Cruchaga, Daniel Marcus, 2019. medRxiv. doi: 10.1101/2019.12.13.19014902
 
 - [3] The Alzheimer's disease neuroimaging initiative (ADNI): MRI methods.
-Jack Jr C R, Bernstein M A, Fox N C, et al. Journal of Magnetic Resonance Imaging: An Official Journal of the International Society for Magnetic Resonance in Medicine, 2008, 27(4): 685-691.
+Jack Jr C R, Bernstein M A, Fox N C, et al. Journal of Magnetic Resonance Imaging: An Official Journal of the International Society for Magnetic 
+Resonance in Medicine, 2008, 27(4): 685-691.
+
+- [4] Muehlboeck J S, Westman E, Simmons A. TheHiveDB image data management and analysis framework[J]. Frontiers in neuroinformatics, 2014, 7: 49.
 
 ## Download
 [link1(true_data)]TBA
