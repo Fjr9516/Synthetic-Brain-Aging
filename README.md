@@ -51,4 +51,4 @@ In addition, we also provide the metadata file including `linear ages` and `regr
 ## Data Use Agreement
 - [OASIS-3](https://www.oasis-brains.org/#access)
 - [ADNI](https://adni.loni.usc.edu/data-samples/access-data/#access_data)
-- [GENIC]TODO
+- [GENIC] A reasonable request should be sent to [Daniel Ferreira Padilla](https://medarbetare.ki.se/people/daniel-ferreira-padilla) to access the data
