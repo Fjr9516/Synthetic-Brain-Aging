@@ -18,8 +18,9 @@ Resonance in Medicine, 2008, 27(4): 685-691.
 
 - [4] Muehlboeck J S, Westman E, Simmons A. TheHiveDB image data management and analysis framework[J]. Frontiers in neuroinformatics, 2014, 7: 49.
 
-## Download
-[link2(synthetic_data)]TBA
+## Data access
+- OASIS3 and ADNI: Please contact [Jingru Du](jingruf@kth.se)
+- GENIC: Please contact [Daniel Ferreira Padilla](https://medarbetare.ki.se/people/daniel-ferreira-padilla)
 
 ## Synthetic collection of three data sets
 
